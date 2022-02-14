@@ -1,40 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="zh-tw">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>HappyBirthday_to_hzq</title>
     <style>
-        .root {
-            position: relative;
-            width: 100%;
-            height: 200px;
-            margin-bottom: 20px;
+        * {
+            padding: 0;
+            margin: 0;
         }
 
-        .container {
-            position: absolute;
-            width: 100%;
-            height: 80px;
-            text-align: center;
-            line-height: 80px;
-            top: 0;
-            bottom: 0;
-            margin: auto 0;
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
         }
     </style>
+    <style>@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');</style>
+
+
+    <script language="JavaScript" src="lib/vec.js"></script>
+    <script language="JavaScript" src="lib/drawString.js"></script>
+    <script language="JavaScript" src="lib/firework.js"></script>
+    <script language="JavaScript" src="lib/particle.js"></script>
+    <script language="JavaScript" src="lib/main.js"></script>
 </head>
 
-<body class="root">
-    <div class="container">
-        <center>
-            <h3 style="color: cornflowerblue;">您要找的页面已经丢失</h3>
-            <br>
-            <p style="color: red;">作者提醒您：早睡早起，注意身体！</p>
-        </center>
-    </div>
+<body>
+    <audio id="bgmMusic" autoplay hidden="true">
+        <source src="resource/bgm.mp3" type="audio/mp3" />
+      Your browser does not support this audio format.
+    </audio>
 </body>
+
 
 </html>
